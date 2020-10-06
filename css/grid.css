@@ -1,0 +1,28 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+  
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.col {
+    display: flex;
+    padding: 1em;
+    flex-basis: 0;
+    min-width: 100%;
+}
+  
+@media only screen and (min-width: 750px) {
+    .col {
+      min-width: 50%;
+    }
+}
+  
+@media only screen and (min-width: 1290px) {
+    .col {
+      min-width: 33.33%;
+    }
+}
